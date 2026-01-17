@@ -6,8 +6,8 @@ Ce projet académique explore la **classification des sentiments** dans les crit
 ## Dataset
 Le projet utilise le **IMDb Movie Reviews Dataset**, disponible aux sources suivantes :  
 - **Dataset original** : [Stanford AI - IMDb Dataset](https://ai.stanford.edu/~amaas/data/sentiment/)  
-- **Dataset sur Hugging Face** : [IMDb Dataset](https://huggingface.co/datasets/imdb)  
-- **Article de référence** : *Learning Word Vectors for Sentiment Analysis* (Maas et al., 2011)
+- **Dataset sur Hugging Face** : [IMDb Dataset](https://huggingface.co/datasets/stanfordnlp/imdb)  
+- **Article de référence** : [Learning Word Vectors for Sentiment Analysis (Maas et al., 2011)](https://aclanthology.org/P11-1015.pdf)
 
 Ce dataset contient **50 000 critiques de films**, annotées comme **positives** ou **négatives**, réparties également entre les ensembles d'entraînement et de test.
 
