@@ -4,9 +4,14 @@
 Ce projet académique explore la **classification des sentiments** dans les critiques de films IMDb à l'aide d'un modèle **Mixture of Experts (MoE)**. L'objectif est de prédire si une critique est **positive** ou **négative** en utilisant des techniques avancées de NLP.
 
 ## Dataset
-- **IMDb Movie Reviews Dataset** : 50 000 critiques de films (25 000 positives, 25 000 négatives)  
-- Sources : [Stanford AI](https://ai.stanford.edu/~amaas/data/sentiment/) | [Hugging Face](https://huggingface.co/datasets/imdb)  
-- Pour ce projet : échantillon de **2 000 critiques** (1 000 positives, 1 000 négatives) pour un traitement rapide.
+Le projet utilise le **IMDb Movie Reviews Dataset**, disponible aux sources suivantes :  
+- **Dataset original** : [Stanford AI - IMDb Dataset](https://ai.stanford.edu/~amaas/data/sentiment/)  
+- **Dataset sur Hugging Face** : [IMDb Dataset](https://huggingface.co/datasets/imdb)  
+- **Article de référence** : *Learning Word Vectors for Sentiment Analysis* (Maas et al., 2011)
+
+Ce dataset contient **50 000 critiques de films**, annotées comme **positives** ou **négatives**, réparties également entre les ensembles d'entraînement et de test.
+
+Pour ce projet on prendra un échantillon de **2 000 critiques** (1 000 positives, 1 000 négatives) pour un traitement rapide.
 
 ## Méthodologie
 1. **Prétraitement des textes** : tokenization, suppression des stopwords, stemming/lemmatisation.  
